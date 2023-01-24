@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.date {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #b5b7c4;
+}
+
+.add-list {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  border: 2px solid #b5b7c4;
+  padding: 12px;
+  border-radius: 15px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+.star-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

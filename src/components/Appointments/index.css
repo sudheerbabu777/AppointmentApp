@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+}
+
+.bg-container {
+  padding: 54px;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 12px;
+}
+@media screen and (max-width: 568px) {
+  .bg-container {
+    flex-direction: column;
+  }
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 568px) {
+  .top-container {
+    flex-direction: column;
+  }
+}
+
+.appointment-image {
+  width: 400px;
+}
+@media screen and (max-width: 568px) {
+  .appointment-image {
+    width: 180px;
+  }
+}
+
+.image-container {
+  order: 0;
+}
+@media screen and (max-width: 568px) {
+  .image-container {
+    order: -1;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 700;
+  color: #171f46;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #b5b7c4;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  outline: none;
+  padding: 8px;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #b5b7c4;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #8b5cf6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.line {
+  border: 2px solid #b5b7c4;
+}
+
+.add-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.Starred-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #9897f0;
+  background-color: transparent;
+  outline: none;
+  border: 1.5px solid #9897f0;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.add-appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.active {
+  background-color: #9897f0;
+  color: #ffffff;
+}
